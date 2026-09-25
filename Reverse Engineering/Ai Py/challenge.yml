@@ -1,0 +1,38 @@
+# Required sections
+name: "Ai Py"
+category: Reverse Engineering
+description: |-
+  
+  Kroslso regijz toer mizhdi kafdo Leia oldrey esdifgid vil ail lill mardcason dea
+  
+  Author: MikiMiku
+
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 9
+    minimum: 100
+##### TIDAK USAH DIGANTI
+
+connection_info:
+
+hints: 
+
+flags:
+    # A static case sensitive flag
+    - LKS{Ai_Nov_meir_xwes_fon_me_Ai_Ow_En_Re_Stra}
+
+tags:
+
+files:
+    - dist/chall
+
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

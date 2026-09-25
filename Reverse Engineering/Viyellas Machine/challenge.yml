@@ -1,0 +1,39 @@
+# Required sections
+name: "Viyella's Machine"
+category: Reverse Engineering
+description: |-
+  
+  Jauh lebih gampang daripada PSVM6️⃣7️⃣
+  Flag Format: PETIR{8-char-pass}
+  
+  Author: Viyella
+
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 8
+    minimum: 100
+##### TIDAK USAH DIGANTI
+
+connection_info:
+
+hints: 
+
+flags:
+    # A static case sensitive flag
+    - PETIR{R3gULu5S}
+
+tags:
+
+files:
+    - dist/chall
+
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

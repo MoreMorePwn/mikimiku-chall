@@ -1,0 +1,77 @@
+# Required sections
+name: "SEV-26"
+category: Reverse Engineering
+description: |-
+    <style>
+        #prism-video-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .prism-video-wrapper {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+        }
+
+        .prism-video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        #prism-author {
+            margin-top: 0.75em;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+    </style>
+
+    <div id="prism-video-container">
+        <div class="prism-video-wrapper">
+            <iframe
+                id="youtube-player"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/M7sV100Dmdc?autoplay=1"
+                title="Laur - SEV-26"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p id="prism-author">Author: MikiMiku</p>
+    </div>
+    
+value: 1000
+type: dynamic
+
+extra:
+    initial: 1000
+    decay: 10
+    minimum: 100
+    require_ai_source: true
+    require_solver: true
+
+hints: 
+
+flags:
+    # A static case sensitive flag
+    - TECHFEST2026{Destiny-Tear-Scream-Nightmare-Malice-W3Lc0MeQ4u33N0fF1ct10N7h3AbS0LuT3Qu33NAbs0LuT3D0MiN4Tion-Ar9Hen4-be4ttH3f1RErIDIN9THrOU9HPu7tInONshO3sManONth3flooRH070NtHeMiCTHAt'S5omen3wsRhythm0nmY8ASsN0tIME7och0SE7hraSH1n9tHE5ys7EM9OsoPUre50deePsor3alH0ToNTHemiCthat'ssomeNeWSRHy7HmONMybA55n07imETOcH0Sear3Your3aDy?-Sw1fTSww1nG-SEeM3l3TtiNg90i'm4LOsecON7r011'MNoT4frAID7oF4LLwatChm3drINkItInANdFeElIT4lLfE3litA1l,f3e1iT-93Rs0fF4t3-D3sP4iR-M3laNCh0Ly-ARc4nA3d3n-4Lt3REg0Ism-okay,H3rE'SmYtheORywh0eveRmadE7HatNo1se,M4DeI7in73NTIONa1LySowEwOulDHeAriT4nDfindh1m-S0UNDCh1M3rA-Sw1ftSwing-PRa9m4TI5Mr3ssuReC7Ion-D3ce1V3r-LuMiN0us3ra-LuM1sEtH3r-AET3RNum4x10mA-Gr13VoUSL4dYN0tHinGI5bUtWH4tISn0t-YOU4lway57Ryt0b3thatfLYSitTin9On7hewOR1DN0tm1ndin9any0nE0uT0FSiGH7,YOuG0ttOKEePonMOVing,DoN'tyOuKnOw-C4lm1Ty0FMyST1cG44Rd3n:D00M}
+    
+tags:
+    - Hard
+
+files:
+    - dist/dist.zip
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
