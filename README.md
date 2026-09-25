@@ -31,7 +31,3 @@ A collection of 19 CTF challenges, organized by category.
 - Ai Py
 - SEV-26
 - Viyella's Machine
-
-## Layout
-
-Each challenge is stored under its category directory and includes its challenge metadata (`challenge.yml`) and available source (`src/`) and distribution (`dist/`) files.
